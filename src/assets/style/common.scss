@@ -1,0 +1,60 @@
+//create by focus on 2018/7/11 15:25
+@import "v";
+
+@font-face {
+    font-family: DINOT;
+    src: url('../../static/font/DINOT-Regular.otf'),
+    url('../../static/font/DINOT-Regular.ttf');
+}
+
+html {
+    background: #f2f2f2;
+    font-family: DINOT, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+.wrapper {
+    min-width: 1200px;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.none {
+    display: none;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
